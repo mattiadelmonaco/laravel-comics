@@ -30,6 +30,7 @@
                     </li>
                 @endforeach
             </ul>
+            <a class="comics__button">LOAD MORE</a>
         </section>
     </main>
 @endsection
