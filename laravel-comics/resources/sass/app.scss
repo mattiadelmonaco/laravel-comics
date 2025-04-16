@@ -121,11 +121,15 @@ header nav a:hover {
 
 footer {
     background-image: url("../img/footer-bg.jpg");
-    background-repeat: no-repeat;
     background-size: cover;
-    height: 25rem;
+    height: 100%;
     position: relative;
     z-index: 0;
+
+    @media screen and (min-width: 540px) {
+        background-repeat: no-repeat;
+        height: 25rem;
+    }
 }
 
 footer a {
@@ -152,6 +156,12 @@ footer a:hover {
     right: 5%;
     transform: translateY(-50%);
     z-index: 1;
+    max-width: 100%;
+    display: none;
+
+    @media screen and (min-width: 1200px) {
+        display: block;
+    }
 }
 
 .sign-up {
@@ -162,6 +172,7 @@ footer a:hover {
     color: white;
     opacity: 1;
     transition: 0.2s ease-in-out;
+    text-align: center;
 }
 
 .sign-up:hover {

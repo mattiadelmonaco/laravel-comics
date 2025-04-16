@@ -1,6 +1,6 @@
 <header class="bg-white">
   <div class="container d-flex justify-content-between align-items-center">
-    <div>
+    <div class="mx-1">
       <a href="{{ route('home') }}"><img src="{{ Vite::asset('resources/img/dc-logo.png') }}" alt="logo DC" width="90"></a>
     </div>
     <nav>

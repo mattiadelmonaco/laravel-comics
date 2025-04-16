@@ -1,7 +1,7 @@
 <footer class="bg-white">
     <div class="container">
         <div class="d-flex justify-content-between">
-        <ul class="my-5 d-flex gap-5">
+        <ul class="my-5 d-flex gap-5 flex-wrap">
             <div class=" text-decoration-none">
                 <h4 class="text-white fw-bold mb-3">DC COMICS</h4>
                 <li><a href="#">Characters</a></li>
@@ -45,9 +45,9 @@
         <div class="container">
             <div class="d-flex justify-content-between">
                 <a class="sign-up" href="#">SIGN-UP NOW!</a>
-                <div class="d-flex align-items-center ">
-                    <h4>FOLLOW US</h4>
-                    <ul class="d-flex gap-4 m-0">
+                <div class="d-flex align-items-center flex-wrap mx-3">
+                    <h4 class="text-center">FOLLOW US</h4>
+                    <ul class="d-flex gap-4 m-0 flex-wrap">
                         <li><a href="#"><img src="{{Vite::asset("resources/img/footer-facebook.png")}}" alt="icona facebook"></a></li>
                         <li><a href="#"><img src="{{Vite::asset("resources/img/footer-twitter.png")}}" alt="icona twitter"></a></li>
                         <li><a href="#"><img src="{{Vite::asset("resources/img/footer-youtube.png")}}" alt="icona youtube"></a></li>
