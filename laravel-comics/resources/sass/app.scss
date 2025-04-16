@@ -18,19 +18,13 @@ header nav a {
     color: #373737;
     font-size: 0.75rem;
     font-weight: 600;
-    transition: 0.3s ease-in-out;
+    transition: 0.2s ease-in-out;
     padding-bottom: 3.9375rem;
 }
 
 header nav a:hover {
     color: #0282f9;
     border-bottom: 0.25rem solid #0282f9;
-}
-
-.selected {
-    color: #0282f9;
-    border-bottom: 0.25rem solid #0282f9;
-    padding-bottom: 3.9375rem;
 }
 
 // MAIN
@@ -118,6 +112,8 @@ header nav a:hover {
     position: relative;
     z-index: 2;
 }
+
+// FOOTER
 
 footer {
     background-image: url("../img/footer-bg.jpg");

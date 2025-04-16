@@ -6,7 +6,7 @@
     <nav>
       <ul class=" d-flex flex-wrap list-unstyled gap-4 mx-2 py-5">
         <li><a href="#">CHARACTERS</a></li>
-        <li><a class="selected" href="#">COMICS</a></li>
+        <li><a href="#">COMICS</a></li>
         <li><a href="#">MOVIES</a></li>
         <li><a href="#">TV</a></li>
         <li><a href="#">GAMES</a></li>
