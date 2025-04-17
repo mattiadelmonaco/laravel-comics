@@ -8,7 +8,11 @@
 
 
 <ul class="container my-5">
-<h1 class="text-white text-uppercase mb-4">Artisti per ogni fumetto</h1>
+    <div class="d-inline text-center">
+        <x-logo></x-logo>
+    </div>
+
+<h1 class="text-white text-uppercase my-4">Artisti per ogni fumetto</h1>
 
     @foreach ($comics as $comic)
         <li class="text-white">
