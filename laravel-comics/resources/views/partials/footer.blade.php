@@ -4,38 +4,38 @@
         <ul class="my-5 d-flex gap-5 flex-wrap">
             <div class=" text-decoration-none">
                 <h4 class="text-white fw-bold mb-3">DC COMICS</h4>
-                <li><a href="#">Characters</a></li>
-                <li><a href="#">Comics</a></li>
-                <li><a href="#">Movies</a></li>
-                <li><a href="#">TV</a></li>
-                <li><a href="#">Games</a></li>
-                <li><a href="#">Videos</a></li>
-                <li><a href="#">News</a></li>
+                <li><a href="{{ route('under-construction')}}">Characters</a></li>
+                <li><a href="{{ route('under-construction')}}">Comics</a></li>
+                <li><a href="{{ route('under-construction')}}">Movies</a></li>
+                <li><a href="{{ route('under-construction')}}">TV</a></li>
+                <li><a href="{{ route('under-construction')}}">Games</a></li>
+                <li><a href="{{ route('under-construction')}}">Videos</a></li>
+                <li><a href="{{ route('under-construction')}}">News</a></li>
                 <h4 class="text-white fw-bold my-3">SHOP</h4>
-                <li><a href="#">Shop DC</a></li>
-                <li><a href="#">Shop DC Collectibles</a></li>
+                <li><a href="{{ route('under-construction')}}">Shop DC</a></li>
+                <li><a href="{{ route('under-construction')}}">Shop DC Collectibles</a></li>
             </div>
             <div>
                 <h4 class="text-white fw-bold mb-3">DC</h4>
-                <li><a href="#">Terms Of Use</a></li>
-                <li><a href="#">Privacy policy (New)</a></li>
-                <li><a href="#">Ad Choices</a></li>
-                <li><a href="#">Advertising</a></li>
-                <li><a href="#">Jobs</a></li>
-                <li><a href="#">Subscriptions</a></li>
-                <li><a href="#">Talent WorkShops</a></li>
-                <li><a href="#">CPSC Certificates</a></li>
-                <li><a href="#">Ratings</a></li>
-                <li><a href="#">Shop Help</a></li>
-                <li><a href="#">Contact Us</a></li>
+                <li><a href="{{ route('under-construction')}}">Terms Of Use</a></li>
+                <li><a href="{{ route('under-construction')}}">Privacy policy (New)</a></li>
+                <li><a href="{{ route('under-construction')}}">Ad Choices</a></li>
+                <li><a href="{{ route('under-construction')}}">Advertising</a></li>
+                <li><a href="{{ route('under-construction')}}">Jobs</a></li>
+                <li><a href="{{ route('under-construction')}}">Subscriptions</a></li>
+                <li><a href="{{ route('under-construction')}}">Talent WorkShops</a></li>
+                <li><a href="{{ route('under-construction')}}">CPSC Certificates</a></li>
+                <li><a href="{{ route('under-construction')}}">Ratings</a></li>
+                <li><a href="{{ route('under-construction')}}">Shop Help</a></li>
+                <li><a href="{{ route('under-construction')}}">Contact Us</a></li>
             </div>
             <div>
                 <h4 class="text-white fw-bold mb-3">SITES</h4>
-                <li><a href="#">DC</a></li>
-                <li><a href="#">MAD Magazine</a></li>
-                <li><a href="#">DC Kids</a></li>
-                <li><a href="#">DC Universe</a></li>
-                <li><a href="#">DC Power Visa</a></li>
+                <li><a href="{{ route('under-construction')}}">DC</a></li>
+                <li><a href="{{ route('under-construction')}}">MAD Magazine</a></li>
+                <li><a href="{{ route('under-construction')}}">DC Kids</a></li>
+                <li><a href="{{ route('under-construction')}}">DC Universe</a></li>
+                <li><a href="{{ route('under-construction')}}">DC Power Visa</a></li>
             </div>
         </ul>
         <img class="logo" src="{{Vite::asset("resources/img/dc-logo-bg.png")}}" alt="logo grande dc">

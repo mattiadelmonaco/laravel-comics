@@ -5,16 +5,15 @@
     </div>
     <nav>
       <ul class=" d-flex flex-wrap list-unstyled gap-4 mx-2 py-5">
-        <li><a href="#">CHARACTERS</a></li>
-        <li><a href="#">COMICS</a></li>
-        <li><a href="#">MOVIES</a></li>
-        <li><a href="#">TV</a></li>
-        <li><a href="#">GAMES</a></li>
-        <li><a href="#">COLLECTIBLES</a></li>
-        <li><a href="#">VIDEOS</a></li>
-        <li><a href="#">FANS</a></li>
-        <li><a href="#">NEWS</a></li>
-        <li><a href="#">SHOP</a></li>
+        <li><a href="{{ route('home') }}">COMICS LIST</a></li>
+        <li><a href="{{ route('artists') }}">ARTISTS</a></li>
+        <li><a href="{{ route('writers') }}">WRITERS</a></li>
+        <li><a href="{{ route('under-construction')}}">GAMES</a></li>
+        <li><a href="{{ route('under-construction')}}">COLLECTIBLES</a></li>
+        <li><a href="{{ route('under-construction')}}">VIDEOS</a></li>
+        <li><a href="{{ route('under-construction')}}">FANS</a></li>
+        <li><a href="{{ route('under-construction')}}">NEWS</a></li>
+        <li><a href="{{ route('under-construction')}}">SHOP</a></li>
       </ul>
     </nav>
   </div>
